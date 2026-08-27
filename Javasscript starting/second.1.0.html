@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script  src="app1.0.js" defer></script> -->
+</head>
+<body>
+    <form action="" id="form1">
+        <input type="number" id="inp">
+        <button type="submit">submit</button>
+    </form>
+    
+    <script>
+        let form = document.querySelector("#form1");
+        form.addEventListener("submit", (event)=>{
+            event.preventDefault()
+            let inp = document.querySelector("#inp");
+            console.log(inp.value)
+            console.log(parseInt(inp.value) +1)
+            console.log("from submited")
+        })
+
+        document.write(`this ois normal not tamplate string ${67676 + 3333}   `)
+
+        ////spread 
+        let arr = [1,3,4,5];
+        document.write(...arr)
+
+        function nums(...nums){
+            nums.forEach(element => {
+                console.log(element)
+            });
+        }
+
+        nums(1,3,4,5,7,8,9,99)
+
+//         document.addEventListener("contextmenu", (event) => {
+//     event.preventDefault();
+// });
+
+
+
+
+        // var a = "Parathu"
+        // var a = "anshu"
+        // document.write(a)
+
+        // let b = 6 
+        // b = 9
+        // document.write(b)
+        //// this is single line comment 
+        /*this is a double line comment*/
+        // const pie = 3.142;
+        // let i = 1;
+        // while(i<=10){
+        //     console.log(i)
+        //     i++
+        // }
+
+
+
+
+    </script>
+    <!-- <script defer src="app1.0.js"></script> -->
+</body>
+</html>
