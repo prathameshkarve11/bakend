@@ -1,0 +1,25 @@
+{
+  "name": "pakagr",
+  "version": "1.0.0",
+  "description": "nothing just trying to learn",
+  "type": "module",
+  "keywords": [
+    "nooo"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "no"
+  },
+  "license": "MIT",
+  "author": "prathu",
+  "main": "first1.js",
+  "scripts": {
+    "test": "hi"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.0"
+  }
+}
