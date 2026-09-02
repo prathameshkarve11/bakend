@@ -7,7 +7,11 @@
  app.use(cookieParser());
 
  app.get("/login", (req,res)=>{
-    res.cookie("username" , "Prathx11")
+    res.cookie("username" , "Prathx11" , {
+      httpOnly : true, /// prevents console.log(document.cookie)
+      secure  : false, //// only works on httpS
+      maxAge: 60000 //// expires in 60sec
+    })
     res.send("login as prathx11")
 
  })
