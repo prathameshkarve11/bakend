@@ -1,4 +1,4 @@
-# Learning Backend
+# Learning Backend with node
 
 A Node.js + Express backend built for learning and practicing backend development concepts — REST APIs, authentication, database integration, and more.
 
