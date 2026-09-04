@@ -2,7 +2,7 @@
 
 A Node.js + Express backend built for learning and practicing backend development concepts — REST APIs, authentication, database integration, and more.
 
-## Features
+## Featuress
 
 - RESTful API structure with Express
 - User authentication (JWT-based)
